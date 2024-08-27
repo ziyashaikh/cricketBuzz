@@ -1,0 +1,15 @@
+/* src/App.css */
+.admin-view {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header, .over-control, .over-listing {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
