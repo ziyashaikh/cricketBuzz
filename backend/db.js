@@ -1,7 +1,6 @@
-// backend/db.js
 const mongoose = require('mongoose');
 
-// Replace with your MongoDB connection string
+
 const mongoURI = 'mongodb+srv://ShaikhZiya:Ziya4321@cricke.7mmh4.mongodb.net/?retryWrites=true&w=majority&appName=Cricke';
 
 const connectDB = async () => {

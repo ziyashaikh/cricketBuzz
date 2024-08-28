@@ -1,4 +1,3 @@
-// src/components/OverListing.js
 import React from 'react';
 import { useEffect } from 'react';
 import './overListing.css';  // Make sure to create this CSS file

@@ -1,4 +1,3 @@
-// src/components/OverControl.js
 import React from 'react';
 
 const OverControl = ({ currentBall, handleScoreUpdate }) => {

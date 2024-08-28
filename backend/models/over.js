@@ -1,4 +1,3 @@
-// backend/models/Over.js
 const mongoose = require('mongoose');
 
 const overSchema = new mongoose.Schema({

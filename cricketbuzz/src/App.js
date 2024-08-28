@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import AdminView from './components/AdminView';
 import UserView from './components/UserView';

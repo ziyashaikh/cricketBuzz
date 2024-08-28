@@ -1,4 +1,3 @@
-// src/components/ThisOverSection.js
 import React from 'react';
 
 const ThisOverSection = ({ thisOverRuns, currentBall }) => {

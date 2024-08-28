@@ -1,4 +1,3 @@
-
 import React from 'react';
 import dotGif from './images/dot.gif';
 import oneGif from './images/one.gif';
