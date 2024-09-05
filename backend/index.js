@@ -9,7 +9,8 @@ const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
     origin: "https://cricket-buzz-frontend.vercel.app/",
-    methods: ["GET", "POST"]
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
   }
 });
 
