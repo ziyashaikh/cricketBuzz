@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "./(.*)", "dest": "/" }],
-  "env": {
-    "CORS_ORIGIN": "https://cricket-buzz-frontend.vercel.app"
-  }
-}

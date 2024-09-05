@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://cricket-buzz-server.vercel.app/api',
-  withCredentials: true
+  baseURL: 'http://localhost:5000/api',  // Update this with your backend server URL
 });
 
 export default instance;

@@ -15,11 +15,7 @@ const AdminView = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const socket = io('https://cricket-buzz-server.vercel.app/', {
-      transports: ['websocket'],
-      upgrade: false,
-      withCredentials: true 
-    });
+    const socket = io('http://localhost:5000');
     socket.on('scoreUpdate', data => {
       console.log('Received scoreUpdate:', data);
       setTotalRuns(data.totalRuns);
