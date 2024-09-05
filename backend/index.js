@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://vercel.com/ziyashaikhs-projects/cricket-buzz-frontend/DqDkSw6PR1i39jkbJnYUvMvfjTyT",
+    origin: "https://cricket-buzz-frontend.vercel.app/",
     methods: ["GET", "POST"]
   }
 });

@@ -19,7 +19,7 @@ const UserView = () => {
     fetchMatchData();
 
     console.log('Setting up WebSocket connection');
-    const socket = io('https://cricket-buzz-server-ekuzh34i6-ziyashaikhs-projects.vercel.app/', {
+    const socket = io('https://cricket-buzz-server.vercel.app/', {
       transports: ['websocket'],
       upgrade: false
     });
