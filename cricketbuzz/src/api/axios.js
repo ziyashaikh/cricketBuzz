@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://your-vercel-api-url.vercel.app/api',
+  baseURL: 'https://cricket-buzz-server.vercel.app/api',
 });
 
 export default instance;
