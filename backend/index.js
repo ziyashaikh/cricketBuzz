@@ -10,14 +10,16 @@ const io = socketIo(server, {
   cors: {
     origin: "https://cricket-buzz-frontend.vercel.app/",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization']
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true
   }
 });
 
 app.use(cors({
   origin: 'https://cricket-buzz-frontend.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
 }));
 app.use(express.json());
 

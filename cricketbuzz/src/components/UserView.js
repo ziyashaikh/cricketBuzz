@@ -4,7 +4,6 @@ import { io } from 'socket.io-client';
 import Header from './Header';
 import AnimationSection from './AnimationSection';
 import ThisOverSection from './ThisOverSection';
-
 const UserView = () => {
   const [matchData, setMatchData] = useState({
     totalRuns: 0,
@@ -21,7 +20,8 @@ const UserView = () => {
     console.log('Setting up WebSocket connection');
     const socket = io('https://cricket-buzz-server.vercel.app/', {
       transports: ['websocket'],
-      upgrade: false
+      upgrade: false,
+      withCredentials: true
     });
     
     socket.on('connect', () => {
