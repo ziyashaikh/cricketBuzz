@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://cricketbuzz.netlify.app/", 
+    origin: "https://cricketbuzz.netlify.app", 
     methods: ["GET", "POST"]
   }
 });
