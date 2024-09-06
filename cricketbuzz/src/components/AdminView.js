@@ -15,7 +15,7 @@ const AdminView = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const socket = io('http://localhost:5000');
+    const socket = io('https://cricketbuzz-backend.onrender.com/');
     socket.on('scoreUpdate', data => {
       console.log('Received scoreUpdate:', data);
       setTotalRuns(data.totalRuns);
